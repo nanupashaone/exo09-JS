@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exo09</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Gestion des Stagiaires</h1>
+        
+        <label for="stagiaireInput">Nom du stagiaire:</label>
+        <input type="text" id="stagiaireInput" placeholder="Entrez le nom du stagiaire">
+    
+        <button onclick="ajouterStagiaire()">Ajouter Stagiaire</button>
+        
+        <div id="resultats">
+            <p id="nombreStagiaires">Nombre de stagiaires: <input></input></p>
+            <p id="listeStagiaires">Liste des stagiaires: <input type="text"> </p>
+            <label for="filtreInput">Filtrer par nom:</label>
+            <input type="text" id="filtreInput" placeholder="Entrez le nom à filtrer">
+            <button onclick="filtrerStagiaires()">Filtrer</button>
+            <p>Dernier stagiaire ajouté: <input type="text"> <button onclick="dernierStagiaire()">Afficher</button></p> 
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
